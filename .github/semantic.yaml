@@ -1,0 +1,17 @@
+# validate the pull request and all commit
+titleAndCommits: true
+
+types:
+  - feat
+  - fix
+  - improvement
+  - docs
+  - style
+  - refactor
+  - perf
+  - test
+  - build
+  - ci
+  - chore
+  - revert
+  - release
