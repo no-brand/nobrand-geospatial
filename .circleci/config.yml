@@ -2,6 +2,11 @@ version: 2
 jobs:
   build:
     working_directory: ~/nobrand-geospatial
+    branches:
+      only:
+        - master
+        - develop
+        - /feature\/*/
     docker:
       - image: circleci/python:3.7
     steps:
