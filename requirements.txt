@@ -1,2 +1,4 @@
 boto3
 elasticsearch
+s2sphere
+pygeohash
